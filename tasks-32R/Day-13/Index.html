@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    .demo {
+      padding: 10px;
+    }
+  </style>
+  <body>
+    <div>content</div>
+    <script>
+      let a = document.querySelector("div");
+      a.classList.add("demo");
+      console.log(a);
+      let b = a.classList.remove("demo");
+      console.log(b);
+      let x = a.classList.toggle("demo1");
+      console.log(x);
+      // let y= a.classList.toggle("demo1")
+    </script>
+  </body>
+</html>
